@@ -1,0 +1,63 @@
+name: Verify Lean module M170887
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    env:
+      MODULE: Lemmata.SmulListSum.SmulListSum
+    steps:
+      - name: Check the public grant for M170887
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          issue=repos/rohanarun/alpoge-rh-replay/issues/5
+          gh api "$issue" | jq -e --arg owner "$GITHUB_REPOSITORY_OWNER" '(.user.login == $owner) and (.state == "open") and (.title == "Claim M170887") and any(.labels[]; .name == "claim-granted")'
+          gh api "$issue/comments" | jq -e 'any(.[]; .user.login == "github-actions[bot]" and (.body | startswith("Granted `M170887`.")))'
+      - name: Check out the volunteer project's pinned verification tools
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: rohanarun/alpoge-rh-replay
+          ref: bd112b125e17561ab3a5b1b4d0b2a9870ebb7030
+          persist-credentials: false
+      - name: Prepare Lean, check the fourteen source parts and fetch mathlib
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/launcher"
+          cd "$RUNNER_TEMP/launcher"
+          curl --fail --silent --show-error --location --retry 3 -o elan.tar.gz https://github.com/leanprover/elan/releases/download/v4.4.0/elan-x86_64-unknown-linux-gnu.tar.gz
+          echo '0e8250aa2be86c7af929ade68db617af9edc8b9ccf6eaf5ece228250d0d032e2  elan.tar.gz' | sha256sum --check
+          tar -xzf elan.tar.gz
+          ELAN_HOME="$RUNNER_TEMP/launcher/home" ./elan-init -y --no-modify-path --default-toolchain none
+          export PATH="$RUNNER_TEMP/launcher/home/bin:$PATH"
+          echo "$RUNNER_TEMP/launcher/home/bin" >> "$GITHUB_PATH"
+          cd "$GITHUB_WORKSPACE"
+          bash ./verify.sh "$RUNNER_TEMP/replay" --prepare-only
+      - name: Build the single granted module and produce its receipt
+        run: |
+          set -euo pipefail
+          started=$(date +%s)
+          python3 tracker/tasks.py build M170887 "$RUNNER_TEMP/replay/lean" "$RUNNER_TEMP/receipt" --bundle
+          echo "$(( $(date +%s) - started ))" > "$RUNNER_TEMP/receipt/build-seconds.txt"
+      - name: Replay the module's declarations and report the theorem's axioms
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP/replay/lean"
+          export ELAN_HOME="$RUNNER_TEMP/replay/elan" XDG_CACHE_HOME="$RUNNER_TEMP/replay/cache"
+          evidence="$RUNNER_TEMP/receipt"
+          sha256sum src/Lemmata/SmulListSum/SmulListSum.lean | tee "$evidence/source.sha256"
+          lake env leanchecker --verbose "$MODULE" 2>&1 | tee "$evidence/kernel.log"
+          printf '%s\n' 'import Lemmata.SmulListSum.SmulListSum' '#print axioms Bl.SmulListSum.goal1' > "$evidence/Audit.lean"
+          lake env lean "$evidence/Audit.lean" 2>&1 | tee "$evidence/axioms.log"
+      - name: Save evidence for the claim
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: M170887-evidence
+          path: ${{ runner.temp }}/receipt/
+          retention-days: 3
+          if-no-files-found: warn
+
