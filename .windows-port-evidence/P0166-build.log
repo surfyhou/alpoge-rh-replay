@@ -1,0 +1,1611 @@
+Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)
+Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+Archive parts SHA-256 d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719
+2026-11-22T09:17:06+00:00  $ /replay/port-436/toolchain/bin/lake --no-ansi --no-cache build +GroundTheory.HeightsAndTheta.Heights.RemainderTerms.StatementsCoinv:olean +GroundTheory.HeightsAndTheta.Heights.RemainderTerms.StatementsElem:olean +GroundTheory.HeightsAndTheta.Heights.RemainderTerms.StatementsTop:olean +GroundTheory.HeightsAndTheta.Heights.StabilizerCovolume.PNormCountBound:olean +GroundTheory.HeightsAndTheta.Heights.StabilizerCovolume.PPrimeLogSum:olean +GroundTheory.HeightsAndTheta.Heights.StabilizerCovolume.PowLeSqrtDetGram:olean +GroundTheory.HeightsAndTheta.Heights.StabilizerCovolume.RecordEigen:olean +GroundTheory.HeightsAndTheta.Heights.ThetaKeyFormula.ThetaThreeFamLinearIndependent:olean +GroundTheory.HeightsAndTheta.Heights.ThetaKeyFormula.ZeroSetFinite:olean +GroundTheory.HeightsAndTheta.Heights.VerticalDivisors.PFibreClosedComponent:olean +GroundTheory.HeightsAndTheta.Heights.VerticalDivisors.Statements:olean +GroundTheory.HeightsAndTheta.Theta.CMDatum:olean +GroundTheory.HeightsAndTheta.Theta.EisensteinZeta.MirabolicInduction.CfunOmClassReducedParamsNonemptyPf:olean +GroundTheory.HeightsAndTheta.Theta.EisensteinZeta.MirabolicInduction.CfunOmEtaLogPeriodNegConjPf:olean +GroundTheory.HeightsAndTheta.Theta.EisensteinZeta.MirabolicInduction.CfunOmEtaPeriodLatticeClassPf:olean +GroundTheory.HeightsAndTheta.Theta.EisensteinZeta.MirabolicInduction.QuadraticFieldSqrtNegSeven:olean +GroundTheory.HeightsAndTheta.Theta.LieCoordinates.SecondKindStatements:olean +GroundTheory.HeightsAndTheta.Theta.SplitLinear.RankMinors:olean +GroundTheory.LocalFields.AbstractLocalReciprocity.ExistsEqNsmulOfProjEqZero:olean +GroundTheory.LocalFields.AbstractLocalReciprocity.ExistsOpenSubgroupMemFixedModule:olean +GroundTheory.LocalFields.BrauerInductionInduced:olean +GroundTheory.LocalFields.CompleteTrivial:olean +GroundTheory.LocalFields.ExamplesCharZero:olean +GroundTheory.LocalFields.ExamplesLaurent:olean +GroundTheory.LocalFields.FiniteExtension:olean +GroundTheory.LocalFields.FormalGroups.FrobeniusTwist:olean +GroundTheory.LocalFields.FormalGroups.Truncation:olean +GroundTheory.LocalFields.NormalLattice:olean +GroundTheory.LocalFields.Uniqueness:olean +GroundTheory.LocalFields.UnitsPowers:olean +GroundTheory.PAdicHodge.AdmissibleField:olean +GroundTheory.PAdicHodge.AxLemma:olean +GroundTheory.PAdicHodge.ExtRobbaBounded:olean +GroundTheory.PAdicHodge.HighIndexSingleZeroOne:olean +GroundTheory.PAdicHodge.KerTheta:olean +GroundTheory.PAdicHodge.LogMul:olean +GroundTheory.PAdicHodge.NormalizedTrace:olean +GroundTheory.PAdicHodge.NormalizedTraceClosure:olean +GroundTheory.PAdicHodge.PerfectoidCharP:olean +GroundTheory.PAdicHodge.PerfectoidCriterion:olean +GroundTheory.PAdicHodge.SlopeCauchyBinet:olean +GroundTheory.PAdicHodge.SlopePhiSub:olean +GroundTheory.PAdicHodge.TateCpTwist:olean +GroundTheory.PAdicHodge.TiltValuation:olean +GroundTheory.PAdicHodge.UnramifiedClosure:olean +GroundTheory.PAdicHodge.WittLift:olean +GroundTheory.PowerSubgroups.CountableNeighbourhoods.ExistsCover:olean +GroundTheory.PowerSubgroups.CountableNeighbourhoods.ExistsSmulMemHermitianLattice:olean +GroundTheory.PowerSubgroups.CountableNeighbourhoods.TiltCountableNeighbourhoods:olean +GroundTheory.ProfiniteCohomology.CharactersDefs:olean +GroundTheory.ProfiniteCohomology.DiscreteModules.IsDiscreteRepIffForallExistsOpenNormalSubgroup:olean +GroundTheory.ProfiniteCohomology.Factor:olean +GroundTheory.ProfiniteCohomology.GaloisModules.Discrete:olean +GroundTheory.ProfiniteCohomology.GaloisModules.FixedField:olean +GroundTheory.ProfiniteCohomology.GlobalClassFormation.IdeleCohomology.Product:olean +GroundTheory.ProfiniteCohomology.InflationRestriction.Section:olean +GroundTheory.ProfiniteCohomology.KummerFinite:olean +GroundTheory.ProfiniteCohomology.LocalEulerCharacteristic.AdditiveInvariants:olean +GroundTheory.ProfiniteCohomology.LocalEulerCharacteristic.AdditiveSnake:olean +GroundTheory.ProfiniteCohomology.OfNatRelIndexSupAntitone:olean +GroundTheory.ProfiniteCohomology.TorsionDualFinite:olean +GroundTheory.TateCohomology.CupProduct:olean +GroundTheory.TateCohomology.HerbrandRep:olean +GroundTheory.TateCohomology.InducedNorm:olean
+⚠ [18250/18403] Built GroundTheory.ProfiniteCohomology.OpenNormal (40s)
+warning: src/GroundTheory/ProfiniteCohomology/OpenNormal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18403] Built GroundTheory.PowerSubgroups.CountableNeighbourhoods.UnramifiedClosureCountableNeighbourhoods (41s)
+warning: src/GroundTheory/PowerSubgroups/CountableNeighbourhoods/UnramifiedClosureCountableNeighbourhoods.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18403] Built GroundTheory.HeightsAndTheta.Heights.KernelsLattice (41s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/KernelsLattice.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18403] Built GroundTheory.ProfiniteCohomology.DiscreteModules (41s)
+warning: src/GroundTheory/ProfiniteCohomology/DiscreteModules.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/ProfiniteCohomology/DiscreteModules.lean:17:17: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/GroundTheory/ProfiniteCohomology/DiscreteModules.lean:21:24: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/GroundTheory/ProfiniteCohomology/DiscreteModules.lean:22:12: `Module.End.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : One F} [self : IsOneApplyEqSelf F]
+    (x : α), 1 x = x
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (x : M), 1 x = x
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+⚠ [18254/18403] Ran GroundTheory.ProfiniteCohomology.DiscreteModules:irArts
+warning: src/GroundTheory/ProfiniteCohomology/DiscreteModules.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18255/18403] Ran GroundTheory.ProfiniteCohomology.OpenNormal:irArts
+warning: src/GroundTheory/ProfiniteCohomology/OpenNormal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18403] Built GroundTheory.PAdicHodge.SemilinearResidue (41s)
+warning: src/GroundTheory/PAdicHodge/SemilinearResidue.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PAdicHodge/SemilinearResidue.lean:80:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/PAdicHodge/SemilinearResidue.lean:80:55: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/PAdicHodge/SemilinearResidue.lean:183:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/PAdicHodge/SemilinearResidue.lean:193:56: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18257/18403] Built GroundTheory.PAdicHodge.SlopeBezout (41s)
+warning: src/GroundTheory/PAdicHodge/SlopeBezout.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18258/18403] Built GroundTheory.TateCohomology.HerbrandAbstract (41s)
+warning: src/GroundTheory/TateCohomology/HerbrandAbstract.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18259/18403] Built GroundTheory.ProfiniteCohomology.TorsionDualDefs (44s)
+warning: src/GroundTheory/ProfiniteCohomology/TorsionDualDefs.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18260/18403] Built GroundTheory.ProfiniteCohomology.KummerBasic (44s)
+warning: src/GroundTheory/ProfiniteCohomology/KummerBasic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/ProfiniteCohomology/KummerBasic.lean:100:20: `HasEnoughRootsOfUnity.exists_primitiveRoot` has been deprecated: Use `HasEnoughRootsOfUnity.exists_isPrimitiveRoot` instead
+
+Hint: Replace the deprecated name:
+  HasEnoughRootsOfUnity.exists_p̵i̲s̲P̲rimitiveRoot
+⚠ [18261/18403] Built GroundTheory.ProfiniteCohomology.GaloisModules.CoeGalRootsOfUnityHomApply (44s)
+warning: src/GroundTheory/ProfiniteCohomology/GaloisModules/CoeGalRootsOfUnityHomApply.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/ProfiniteCohomology/GaloisModules/CoeGalRootsOfUnityHomApply.lean:33:15: `monoidEndToAdditive` has been deprecated: Use `MulEquiv.monoidEnd` instead
+
+Hint: Replace the deprecated name:
+  M̲u̲l̲E̲q̲u̲i̲v̲.̲monoidEndT̵o̵A̵d̵d̵i̵t̵i̵v̵e̵
+warning: src/GroundTheory/ProfiniteCohomology/GaloisModules/CoeGalRootsOfUnityHomApply.lean:44:6: `monoidEndToAdditive` has been deprecated: Use `MulEquiv.monoidEnd` instead
+
+Hint: Replace the deprecated name:
+  M̲u̲l̲E̲q̲u̲i̲v̲.̲monoidEndT̵o̵A̵d̵d̵i̵t̵i̵v̵e̵
+⚠ [18262/18403] Built GroundTheory.PAdicHodge.BdRSeries (5.5s)
+warning: src/GroundTheory/PAdicHodge/BdRSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PAdicHodge/BdRSeries.lean:19:43: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/PAdicHodge/BdRSeries.lean:52:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/PAdicHodge/BdRSeries.lean:72:52: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/PAdicHodge/BdRSeries.lean:148:15: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/PAdicHodge/BdRSeries.lean:203:46: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/PAdicHodge/BdRSeries.lean:216:29: `PowerSeries.deriv_log` has been deprecated: Use `PowerSeries.derivative_log` instead
+
+Hint: Replace the deprecated name:
+  deriva̲t̲i̲v̲e̲_log
+warning: src/GroundTheory/PAdicHodge/BdRSeries.lean:218:30: `PowerSeries.deriv_log` has been deprecated: Use `PowerSeries.derivative_log` instead
+
+Hint: Replace the deprecated name:
+  deriva̲t̲i̲v̲e̲_log
+warning: src/GroundTheory/PAdicHodge/BdRSeries.lean:256:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/PAdicHodge/BdRSeries.lean:258:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18263/18403] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsRootOfAdicComplete (3.1s)
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsRootOfAdicComplete.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsRootOfAdicComplete.lean:31:12: `isLocalHom_of_le_jacobson_bot` has been deprecated: Use `isLocalHom_of_le_jacobson` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u} [inst : CommRing R] {I : Ideal R}, I ≤ Ring.jacobson R → IsLocalHom (Ideal.Quotient.mk I)
+instead of
+  ∀ {R : Type u_1} [inst : CommRing R], ∀ I ≤ ⊥.jacobson, IsLocalHom (Ideal.Quotient.mk I)
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsRootOfAdicComplete.lean:31:45: `IsAdicComplete.le_jacobson_bot` has been deprecated: Use `IsAdicComplete.le_jacobson` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommRing R] (I : Ideal R) [IsAdicComplete I R], I ≤ Ring.jacobson R
+instead of
+  ∀ {R : Type u_1} [inst : CommRing R] (I : Ideal R) [IsAdicComplete I R], I ≤ ⊥.jacobson
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsRootOfAdicComplete.lean:120:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp at this
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsRootOfAdicComplete.lean:135:22: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsRootOfAdicComplete.lean:135:39: Variable name `inst_1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsRootOfAdicComplete.lean:135:65: Variable name `inst_2` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_2
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18264/18403] Built GroundTheory.PAdicHodge.GaloisOnCp (3.0s)
+warning: src/GroundTheory/PAdicHodge/GaloisOnCp.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18265/18403] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LeSpanSingletonOfForallMemEq (7.4s)
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/LeSpanSingletonOfForallMemEq.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/LeSpanSingletonOfForallMemEq.lean:4:22: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18266/18403] Built GroundTheory.PAdicHodge.ExtRobbaTeich (6.7s)
+warning: src/GroundTheory/PAdicHodge/ExtRobbaTeich.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PAdicHodge/ExtRobbaTeich.lean:322:37: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/PAdicHodge/ExtRobbaTeich.lean:556:43: This simp argument is unused:
+  one_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pow_zero, one_pow, mul_one, Nat.choose_zero_right, Nat.choose_self, Nat.cast_one, Nat.sub_self,
+    Nat.sub_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/PAdicHodge/ExtRobbaTeich.lean:595:73: Variable name `ht1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ht1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/GroundTheory/PAdicHodge/ExtRobbaTeich.lean:725:12: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/GroundTheory/PAdicHodge/ExtRobbaTeich.lean:725:12: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18267/18403] Built GroundTheory.PAdicHodge.SlopePhiModule (9.7s)
+warning: src/GroundTheory/PAdicHodge/SlopePhiModule.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PAdicHodge/SlopePhiModule.lean:197:11: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18268/18403] Built GroundTheory.ProfiniteCohomology.FilteredHomology (51s)
+warning: src/GroundTheory/ProfiniteCohomology/FilteredHomology.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18269/18403] Built GroundTheory.PAdicHodge.RobbaSeries (10s)
+warning: src/GroundTheory/PAdicHodge/RobbaSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PAdicHodge/RobbaSeries.lean:135:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/GroundTheory/PAdicHodge/RobbaSeries.lean:153:44: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sub_eq_zero, Ne.symm hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/PAdicHodge/RobbaSeries.lean:277:43: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/GroundTheory/PAdicHodge/RobbaSeries.lean:286:51: Variable name `n` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _n
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/GroundTheory/PAdicHodge/RobbaSeries.lean:317:21: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/GroundTheory/PAdicHodge/RobbaSeries.lean:331:45: Variable name `hx0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hx0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/GroundTheory/PAdicHodge/RobbaSeries.lean:437:23: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/GroundTheory/PAdicHodge/RobbaSeries.lean:442:21: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/GroundTheory/PAdicHodge/RobbaSeries.lean:449:23: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/GroundTheory/PAdicHodge/RobbaSeries.lean:454:21: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [18270/18403] Built GroundTheory.LocalFields.ExamplesTeichmuller (3.9s)
+warning: src/GroundTheory/LocalFields/ExamplesTeichmuller.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18271/18403] Built GroundTheory.PowerSubgroups.CountableNeighbourhoods.ExistsMaxMinorNeZeroOfLinearIndependentAlt (12s)
+warning: src/GroundTheory/PowerSubgroups/CountableNeighbourhoods/ExistsMaxMinorNeZeroOfLinearIndependentAlt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PowerSubgroups/CountableNeighbourhoods/ExistsMaxMinorNeZeroOfLinearIndependentAlt.lean:65:15: `Matrix.linearIndependent_rows_iff_isUnit` has been deprecated: Use `Matrix.linearIndependent_row_iff_isUnit` instead
+
+Hint: Replace the deprecated name:
+  Matrix.linearIndependent_rows̵_iff_isUnit
+⚠ [18272/18403] Built GroundTheory.LocalFields.UnitsBasic (7.7s)
+warning: src/GroundTheory/LocalFields/UnitsBasic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/LocalFields/UnitsBasic.lean:100:0: automatically included section variable(s) unused in theorem `GroundTheory.LocalField.valuation_unit`:
+  [TopologicalSpace K]
+  [IsNonarchimedeanLocalField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsNonarchimedeanLocalField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/LocalFields/UnitsBasic.lean:171:0: automatically included section variable(s) unused in theorem `GroundTheory.LocalField.coe_unitsIncl`:
+  [TopologicalSpace K]
+  [IsNonarchimedeanLocalField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsNonarchimedeanLocalField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/LocalFields/UnitsBasic.lean:173:0: automatically included section variable(s) unused in theorem `GroundTheory.LocalField.unitsIncl_injective`:
+  [TopologicalSpace K]
+  [IsNonarchimedeanLocalField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsNonarchimedeanLocalField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/LocalFields/UnitsBasic.lean:198:0: automatically included section variable(s) unused in theorem `GroundTheory.LocalField.coe_uniformizerUnit`:
+  [TopologicalSpace K]
+  [IsNonarchimedeanLocalField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsNonarchimedeanLocalField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/LocalFields/UnitsBasic.lean:205:0: automatically included section variable(s) unused in theorem `GroundTheory.LocalField.coe_unitsOfIntProd`:
+  [TopologicalSpace K]
+  [IsNonarchimedeanLocalField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsNonarchimedeanLocalField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18273/18403] Built GroundTheory.TateCohomology.CupCochains (54s)
+warning: src/GroundTheory/TateCohomology/CupCochains.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/TateCohomology/CupCochains.lean:87:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/TateCohomology/CupCochains.lean:87:27: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/TateCohomology/CupCochains.lean:89:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/TateCohomology/CupCochains.lean:89:27: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/TateCohomology/CupCochains.lean:91:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/TateCohomology/CupCochains.lean:91:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/TateCohomology/CupCochains.lean:93:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/TateCohomology/CupCochains.lean:93:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/TateCohomology/CupCochains.lean:130:76: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/GroundTheory/TateCohomology/CupCochains.lean:195:10: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/GroundTheory/TateCohomology/CupCochains.lean:278:44: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/GroundTheory/TateCohomology/CupCochains.lean:289:73: `Module.End.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : One F} [self : IsOneApplyEqSelf F]
+    (x : α), 1 x = x
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (x : M), 1 x = x
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+⚠ [18274/18403] Built GroundTheory.ProfiniteCohomology.Supernatural (55s)
+warning: src/GroundTheory/ProfiniteCohomology/Supernatural.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18275/18403] Built GroundTheory.LocalFields.Examples (6.3s)
+warning: src/GroundTheory/LocalFields/Examples.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/LocalFields/Examples.lean:25:16: `WithZero.exp_neg` does not have the `[simp]` attribute
+⚠ [18276/18403] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsUniqueFixedPoint (8.6s)
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsUniqueFixedPoint.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsUniqueFixedPoint.lean:17:37: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18277/18403] Built GroundTheory.PAdicHodge.Admissible (14s)
+warning: src/GroundTheory/PAdicHodge/Admissible.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:37:20: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:70:20: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:120:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:201:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:207:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:208:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:227:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:228:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:229:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:244:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:245:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:246:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:306:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:307:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:308:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:316:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:317:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:318:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/Admissible.lean:336:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+⚠ [18278/18403] Built GroundTheory.LocalFields.Interface (10s)
+warning: src/GroundTheory/LocalFields/Interface.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18279/18403] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsRowsLinearIndependent (5.5s)
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsRowsLinearIndependent.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsRowsLinearIndependent.lean:8:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsRowsLinearIndependent.lean:9:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsRowsLinearIndependent.lean:4:22: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsRowsLinearIndependent.lean:4:79: Variable name `inst_2` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_2
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18280/18403] Built GroundTheory.LocalFields.BrauerInductionCharacters (7.4s)
+warning: src/GroundTheory/LocalFields/BrauerInductionCharacters.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/LocalFields/BrauerInductionCharacters.lean:154:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/LocalFields/BrauerInductionCharacters.lean:157:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/LocalFields/BrauerInductionCharacters.lean:157:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/LocalFields/BrauerInductionCharacters.lean:160:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/LocalFields/BrauerInductionCharacters.lean:162:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/LocalFields/BrauerInductionCharacters.lean:162:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/LocalFields/BrauerInductionCharacters.lean:191:45: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/LocalFields/BrauerInductionCharacters.lean:194:45: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/LocalFields/BrauerInductionCharacters.lean:210:79: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/LocalFields/BrauerInductionCharacters.lean:213:79: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/LocalFields/BrauerInductionCharacters.lean:227:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/LocalFields/BrauerInductionCharacters.lean:230:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/LocalFields/BrauerInductionCharacters.lean:328:26: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/LocalFields/BrauerInductionCharacters.lean:346:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/LocalFields/BrauerInductionCharacters.lean:376:62: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (f g : End R M)
+    (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/GroundTheory/LocalFields/BrauerInductionCharacters.lean:377:8: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (f g : End R M)
+    (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/GroundTheory/LocalFields/BrauerInductionCharacters.lean:410:28: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18281/18403] Built GroundTheory.LocalFields.AbstractLocalReciprocity.ProfiniteInteger (7.8s)
+warning: src/GroundTheory/LocalFields/AbstractLocalReciprocity/ProfiniteInteger.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/LocalFields/AbstractLocalReciprocity/ProfiniteInteger.lean:12:39: ProfiniteInteger does not have a doc string
+⚠ [18282/18403] Built GroundTheory.HeightsAndTheta.Heights.VerticalDivisors.StatementsFibreCut (3.8s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/VerticalDivisors/StatementsFibreCut.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18283/18403] Ran GroundTheory.HeightsAndTheta.Heights.VerticalDivisors.StatementsFibreCut:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/VerticalDivisors/StatementsFibreCut.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18284/18403] Ran Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsRowsLinearIndependent:irArts
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsRowsLinearIndependent.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18285/18403] Ran GroundTheory.LocalFields.AbstractLocalReciprocity.ProfiniteInteger:irArts
+warning: src/GroundTheory/LocalFields/AbstractLocalReciprocity/ProfiniteInteger.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18286/18403] Ran GroundTheory.LocalFields.BrauerInductionCharacters:irArts
+warning: src/GroundTheory/LocalFields/BrauerInductionCharacters.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18287/18403] Ran GroundTheory.LocalFields.Examples:irArts
+warning: src/GroundTheory/LocalFields/Examples.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18288/18403] Ran GroundTheory.LocalFields.ExamplesTeichmuller:irArts
+warning: src/GroundTheory/LocalFields/ExamplesTeichmuller.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18289/18403] Ran GroundTheory.LocalFields.Interface:irArts
+warning: src/GroundTheory/LocalFields/Interface.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18290/18403] Ran Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsUniqueFixedPoint:irArts
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsUniqueFixedPoint.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18291/18403] Ran GroundTheory.LocalFields.UnitsBasic:irArts
+warning: src/GroundTheory/LocalFields/UnitsBasic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18292/18403] Ran Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsRootOfAdicComplete:irArts
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsRootOfAdicComplete.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18293/18403] Ran GroundTheory.PAdicHodge.Admissible:irArts
+warning: src/GroundTheory/PAdicHodge/Admissible.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18294/18403] Ran GroundTheory.PAdicHodge.GaloisOnCp:irArts
+warning: src/GroundTheory/PAdicHodge/GaloisOnCp.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18295/18403] Ran GroundTheory.PAdicHodge.ExtRobbaTeich:irArts
+warning: src/GroundTheory/PAdicHodge/ExtRobbaTeich.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18296/18403] Ran GroundTheory.PAdicHodge.RobbaSeries:irArts
+warning: src/GroundTheory/PAdicHodge/RobbaSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18297/18403] Ran Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LeSpanSingletonOfForallMemEq:irArts
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/LeSpanSingletonOfForallMemEq.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18298/18403] Ran GroundTheory.PAdicHodge.BdRSeries:irArts
+warning: src/GroundTheory/PAdicHodge/BdRSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18299/18403] Ran GroundTheory.PowerSubgroups.CountableNeighbourhoods.ExistsMaxMinorNeZeroOfLinearIndependentAlt:irArts
+warning: src/GroundTheory/PowerSubgroups/CountableNeighbourhoods/ExistsMaxMinorNeZeroOfLinearIndependentAlt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18300/18403] Ran GroundTheory.PAdicHodge.SlopePhiModule:irArts
+warning: src/GroundTheory/PAdicHodge/SlopePhiModule.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18301/18403] Ran GroundTheory.PAdicHodge.SlopeBezout:irArts
+warning: src/GroundTheory/PAdicHodge/SlopeBezout.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18302/18403] Ran GroundTheory.PowerSubgroups.CountableNeighbourhoods.UnramifiedClosureCountableNeighbourhoods:irArts
+warning: src/GroundTheory/PowerSubgroups/CountableNeighbourhoods/UnramifiedClosureCountableNeighbourhoods.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18303/18403] Ran GroundTheory.PAdicHodge.SemilinearResidue:irArts
+warning: src/GroundTheory/PAdicHodge/SemilinearResidue.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18304/18403] Ran GroundTheory.HeightsAndTheta.Heights.KernelsLattice:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/KernelsLattice.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18305/18403] Ran GroundTheory.ProfiniteCohomology.TorsionDualDefs:irArts
+warning: src/GroundTheory/ProfiniteCohomology/TorsionDualDefs.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18306/18403] Ran GroundTheory.ProfiniteCohomology.GaloisModules.CoeGalRootsOfUnityHomApply:irArts
+warning: src/GroundTheory/ProfiniteCohomology/GaloisModules/CoeGalRootsOfUnityHomApply.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18307/18403] Ran GroundTheory.ProfiniteCohomology.FilteredHomology:irArts
+warning: src/GroundTheory/ProfiniteCohomology/FilteredHomology.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18308/18403] Ran GroundTheory.ProfiniteCohomology.KummerBasic:irArts
+warning: src/GroundTheory/ProfiniteCohomology/KummerBasic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18309/18403] Ran GroundTheory.ProfiniteCohomology.Supernatural:irArts
+warning: src/GroundTheory/ProfiniteCohomology/Supernatural.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18310/18403] Ran GroundTheory.TateCohomology.CupCochains:irArts
+warning: src/GroundTheory/TateCohomology/CupCochains.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18311/18403] Ran GroundTheory.TateCohomology.HerbrandAbstract:irArts
+warning: src/GroundTheory/TateCohomology/HerbrandAbstract.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18312/18403] Built GroundTheory.TateCohomology.Induced (61s)
+warning: src/GroundTheory/TateCohomology/Induced.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/TateCohomology/Induced.lean:115:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18313/18403] Built GroundTheory.AutomorphicForms.QuadraticConj (7.3s)
+warning: src/GroundTheory/AutomorphicForms/QuadraticConj.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18314/18403] Built GroundTheory.HeightsAndTheta.Heights.StabilizerCovolume.RecordEigenInputs (3.8s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/StabilizerCovolume/RecordEigenInputs.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/StabilizerCovolume/RecordEigenInputs.lean:65:17: `FractionalIdeal.count_coe` has been deprecated: Use `FractionalIdeal.count_coeIdeal` instead
+
+Hint: Replace the deprecated name:
+  FractionalIdeal.count_coeI̲d̲e̲a̲l̲
+⚠ [18315/18403] Ran GroundTheory.HeightsAndTheta.Heights.StabilizerCovolume.RecordEigenInputs:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/StabilizerCovolume/RecordEigenInputs.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18316/18403] Ran GroundTheory.AutomorphicForms.QuadraticConj:irArts
+warning: src/GroundTheory/AutomorphicForms/QuadraticConj.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18317/18403] Ran GroundTheory.TateCohomology.Induced:irArts
+warning: src/GroundTheory/TateCohomology/Induced.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18318/18403] Built GroundTheory.HeightsAndTheta.Heights.CovolumeGram (4.6s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/CovolumeGram.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18319/18403] Built GroundTheory.LocalFields.FilteredSurj (13s)
+warning: src/GroundTheory/LocalFields/FilteredSurj.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18320/18403] Built GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.Statements (9.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ArithmeticBezout/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/ArithmeticBezout/Statements.lean:68:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/ArithmeticBezout/Statements.lean:281:8: `MvPolynomial.coeff_zero` has been deprecated: Use `AddMonoidAlgebra.coeff_zero` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R], AddMonoidAlgebra.coeff 0 = 0
+instead of
+  ∀ {R : Type u} {σ : Type u_1} [inst : CommSemiring R], AddMonoidAlgebra.coeff 0 = 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coeff_zero` to `AddMonoidAlgebra.coeff_zero x`).
+⚠ [18321/18403] Built GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Statements (6.2s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18322/18403] Built GroundTheory.ProfiniteCohomology.Factor (6.2s)
+warning: src/GroundTheory/ProfiniteCohomology/Factor.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18323/18403] Built GroundTheory.HeightsAndTheta.Theta.EisensteinZeta.MirabolicInduction.CfunOmStatements (13s)
+warning: src/GroundTheory/HeightsAndTheta/Theta/EisensteinZeta/MirabolicInduction/CfunOmStatements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18324/18403] Built GroundTheory.PAdicHodge.WittLift (3.6s)
+warning: src/GroundTheory/PAdicHodge/WittLift.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18325/18403] Built GroundTheory.ProfiniteCohomology.LocalEulerCharacteristic.AdditiveDefs (69s)
+warning: src/GroundTheory/ProfiniteCohomology/LocalEulerCharacteristic/AdditiveDefs.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/ProfiniteCohomology/LocalEulerCharacteristic/AdditiveDefs.lean:132:9: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/ProfiniteCohomology/LocalEulerCharacteristic/AdditiveDefs.lean:136:9: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18326/18403] Built GroundTheory.ProfiniteCohomology.DiscreteModules.IsDiscreteRepIffForallExistsOpenNormalSubgroup (7.7s)
+warning: src/GroundTheory/ProfiniteCohomology/DiscreteModules/IsDiscreteRepIffForallExistsOpenNormalSubgroup.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/ProfiniteCohomology/DiscreteModules/IsDiscreteRepIffForallExistsOpenNormalSubgroup.lean:37:73: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/GroundTheory/ProfiniteCohomology/DiscreteModules/IsDiscreteRepIffForallExistsOpenNormalSubgroup.lean:273:54: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+⚠ [18327/18403] Built GroundTheory.ProfiniteCohomology.InflationRestriction.Section (9.0s)
+warning: src/GroundTheory/ProfiniteCohomology/InflationRestriction/Section.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18328/18403] Built GroundTheory.TateCohomology.HerbrandRep (4.0s)
+warning: src/GroundTheory/TateCohomology/HerbrandRep.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18329/18403] Built GroundTheory.ProfiniteCohomology.GaloisModules.Discrete (3.7s)
+warning: src/GroundTheory/ProfiniteCohomology/GaloisModules/Discrete.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18330/18403] Built GroundTheory.PowerSubgroups.CountableNeighbourhoods.ExistsSmulMemHermitianLattice (11s)
+warning: src/GroundTheory/PowerSubgroups/CountableNeighbourhoods/ExistsSmulMemHermitianLattice.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18331/18403] Built GroundTheory.PowerSubgroups.CountableNeighbourhoods.ExistsCover (12s)
+warning: src/GroundTheory/PowerSubgroups/CountableNeighbourhoods/ExistsCover.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PowerSubgroups/CountableNeighbourhoods/ExistsCover.lean:110:26: `SetLike.exists_of_lt` has been deprecated: Use `IsConcreteLE.exists_of_lt` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.exists_of_lt` to `IsConcreteLE.exists_of_lt x`).
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵L̵i̵k̵e̵.̵e̵x̵i̵s̵t̵s̵_̵o̵f̵_̵l̵t̵I̲s̲C̲o̲n̲c̲r̲e̲t̲e̲L̲E̲.̲e̲x̲i̲s̲t̲s̲_̲o̲f̲_̲l̲t̲
+⚠ [18332/18403] Built GroundTheory.AutomorphicForms.RealGroupsLie (21s)
+warning: src/GroundTheory/AutomorphicForms/RealGroupsLie.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18333/18403] Built GroundTheory.PAdicHodge.AxLemma (5.4s)
+warning: src/GroundTheory/PAdicHodge/AxLemma.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PAdicHodge/AxLemma.lean:54:11: `padicValNat_dvd_iff_le` has been deprecated: Use `multiplicity_dvd_iff_le` instead
+
+Hint: Replace the deprecated name:
+  p̵a̵d̵i̵c̵V̵a̵l̵N̵a̵t̵_̵d̵v̵d̵_̵i̵f̵f̵_̵l̵e̵m̲u̲l̲t̲i̲p̲l̲i̲c̲i̲t̲y̲_̲d̲v̲d̲_̲i̲f̲f̲_̲l̲e̲
+warning: src/GroundTheory/PAdicHodge/AxLemma.lean:68:26: `padicNorm.eq_zpow_of_nonzero` has been deprecated: Use `padicNorm.eq_zpow_of_ne_zero` instead
+
+Hint: Replace the deprecated name:
+  padicNorm.eq_zpow_of_no̵n̵e̲_̲zero
+warning: src/GroundTheory/PAdicHodge/AxLemma.lean:76:55: `padicValNat.eq_zero_of_not_dvd` has been deprecated: Use `multiplicity_eq_zero_of_not_dvd` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.eq_zero_of_not_dvd` to `multiplicity_eq_zero_of_not_dvd x`).
+
+Hint: Replace the deprecated name:
+  p̵a̵d̵i̵c̵V̵a̵l̵N̵a̵t̵.̵e̵q̵_̵z̵e̵r̵o̵_̵o̵f̵_̵n̵o̵t̵_̵d̵v̵d̵m̲u̲l̲t̲i̲p̲l̲i̲c̲i̲t̲y̲_̲e̲q̲_̲z̲e̲r̲o̲_̲o̲f̲_̲n̲o̲t̲_̲d̲v̲d̲
+warning: src/GroundTheory/PAdicHodge/AxLemma.lean:84:47: `pow_padicValNat_dvd` has been deprecated: Use `pow_multiplicity_dvd` instead
+
+Hint: Replace the deprecated name:
+  p̵o̵w̵_̵p̵a̵d̵i̵c̵V̵a̵l̵N̵a̵t̵_̵d̵v̵d̵p̲o̲w̲_̲m̲u̲l̲t̲i̲p̲l̲i̲c̲i̲t̲y̲_̲d̲v̲d̲
+warning: src/GroundTheory/PAdicHodge/AxLemma.lean:524:44: `Submodule.complete_of_finiteDimensional` has been deprecated: Use `Submodule.isComplete_of_finiteDimensional` instead
+⚠ [18334/18403] Built GroundTheory.PAdicHodge.NormalizedTraceClosure (4.3s)
+warning: src/GroundTheory/PAdicHodge/NormalizedTraceClosure.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PAdicHodge/NormalizedTraceClosure.lean:64:2: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/PAdicHodge/NormalizedTraceClosure.lean:72:4: `Submodule.complete_of_finiteDimensional` has been deprecated: Use `Submodule.isComplete_of_finiteDimensional` instead
+
+Hint: Replace the deprecated name:
+  Submodule.c̵i̲s̲C̲omplete_of_finiteDimensional
+⚠ [18335/18403] Built GroundTheory.PAdicHodge.PerfectoidField (36s)
+warning: src/GroundTheory/PAdicHodge/PerfectoidField.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18336/18403] Built GroundTheory.ProfiniteCohomology.CharactersDefs (12s)
+warning: src/GroundTheory/ProfiniteCohomology/CharactersDefs.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18337/18403] Built GroundTheory.ProfiniteCohomology.GaloisModules.FixedField (9.3s)
+warning: src/GroundTheory/ProfiniteCohomology/GaloisModules/FixedField.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/ProfiniteCohomology/GaloisModules/FixedField.lean:137:8: `IntermediateField.le_iff_le` has been deprecated: Use `IntermediateField.le_fixedField_iff_le_fixingSubgroup` instead
+
+Hint: Replace the deprecated name:
+  l̵e̵_̵i̵f̵f̵_̵l̵e̵l̲e̲_̲f̲i̲x̲e̲d̲F̲i̲e̲l̲d̲_̲i̲f̲f̲_̲l̲e̲_̲f̲i̲x̲i̲n̲g̲S̲u̲b̲g̲r̲o̲u̲p̲
+⚠ [18338/18403] Built GroundTheory.PAdicHodge.LogMul (9.8s)
+warning: src/GroundTheory/PAdicHodge/LogMul.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PAdicHodge/LogMul.lean:19:49: `PowerSeries.deriv_log` has been deprecated: Use `PowerSeries.derivative_log` instead
+
+Hint: Replace the deprecated name:
+  deriva̲t̲i̲v̲e̲_log
+⚠ [18339/18403] Built GroundTheory.PAdicHodge.SlopePhiSub (6.0s)
+warning: src/GroundTheory/PAdicHodge/SlopePhiSub.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PAdicHodge/SlopePhiSub.lean:69:18: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/PAdicHodge/SlopePhiSub.lean:69:29: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18340/18403] Built GroundTheory.PAdicHodge.HighIndexSingleZeroOne (5.1s)
+warning: src/GroundTheory/PAdicHodge/HighIndexSingleZeroOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PAdicHodge/HighIndexSingleZeroOne.lean:19:8: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [show n ≠ n₀ from hn]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/PAdicHodge/HighIndexSingleZeroOne.lean:49:38: Variable name `ρ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ρ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/GroundTheory/PAdicHodge/HighIndexSingleZeroOne.lean:50:61: Variable name `ρ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ρ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/GroundTheory/PAdicHodge/HighIndexSingleZeroOne.lean:52:38: Variable name `ρ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ρ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/GroundTheory/PAdicHodge/HighIndexSingleZeroOne.lean:54:32: Variable name `ρ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ρ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/GroundTheory/PAdicHodge/HighIndexSingleZeroOne.lean:64:41: Variable name `ρ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ρ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/GroundTheory/PAdicHodge/HighIndexSingleZeroOne.lean:117:27: Variable name `ρ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ρ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/GroundTheory/PAdicHodge/HighIndexSingleZeroOne.lean:241:41: Variable name `ρ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ρ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/GroundTheory/PAdicHodge/HighIndexSingleZeroOne.lean:269:43: Variable name `hρ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hρ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/GroundTheory/PAdicHodge/HighIndexSingleZeroOne.lean:274:12: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hn]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/PAdicHodge/HighIndexSingleZeroOne.lean:280:21: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/GroundTheory/PAdicHodge/HighIndexSingleZeroOne.lean:283:10: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hn]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/PAdicHodge/HighIndexSingleZeroOne.lean:311:12: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hn]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/PAdicHodge/HighIndexSingleZeroOne.lean:409:44: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/PAdicHodge/HighIndexSingleZeroOne.lean:446:12: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hn]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18341/18403] Built GroundTheory.PAdicHodge.TateCpTwist (8.4s)
+warning: src/GroundTheory/PAdicHodge/TateCpTwist.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18342/18403] Built GroundTheory.ProfiniteCohomology.KummerFinite (15s)
+warning: src/GroundTheory/ProfiniteCohomology/KummerFinite.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/ProfiniteCohomology/KummerFinite.lean:53:57: `MonoidHom.coe_coe` has been deprecated: Use `MonoidHom.coe_ofClass` instead
+
+Hint: Replace the deprecated name:
+  M̵o̵n̵o̵i̵d̵H̵o̵m̵.̵c̵o̵e̵_̵c̵o̵e̵M̲o̲n̲o̲i̲d̲H̲o̲m̲.̲c̲o̲e̲_̲o̲f̲C̲l̲a̲s̲s̲
+warning: src/GroundTheory/ProfiniteCohomology/KummerFinite.lean:59:79: `MonoidHom.coe_coe` has been deprecated: Use `MonoidHom.coe_ofClass` instead
+
+Hint: Replace the deprecated name:
+  M̵o̵n̵o̵i̵d̵H̵o̵m̵.̵c̵o̵e̵_̵c̵o̵e̵M̲o̲n̲o̲i̲d̲H̲o̲m̲.̲c̲o̲e̲_̲o̲f̲C̲l̲a̲s̲s̲
+⚠ [18343/18403] Built GroundTheory.PAdicHodge.SlopeCauchyBinet (6.0s)
+warning: src/GroundTheory/PAdicHodge/SlopeCauchyBinet.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18344/18403] Built GroundTheory.ProfiniteCohomology.OfNatRelIndexSupAntitone (3.0s)
+warning: src/GroundTheory/ProfiniteCohomology/OfNatRelIndexSupAntitone.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18345/18403] Built GroundTheory.HeightsAndTheta.Heights.RemainderTerms.CoinvReduction (26s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/CoinvReduction.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18346/18403] Built GroundTheory.ProfiniteCohomology.TorsionDualFinite (21s)
+warning: src/GroundTheory/ProfiniteCohomology/TorsionDualFinite.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18347/18403] Built GroundTheory.LocalFields.UnitsPowers (10s)
+warning: src/GroundTheory/LocalFields/UnitsPowers.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18348/18403] Built GroundTheory.LocalFields.FormalGroups.Truncation (5.8s)
+warning: src/GroundTheory/LocalFields/FormalGroups/Truncation.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18349/18403] Built GroundTheory.PAdicHodge.NormalizedTrace (18s)
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:32:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:45:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:57:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:97:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:98:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:100:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:101:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:102:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:203:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:247:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:253:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:254:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:266:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:267:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:268:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:269:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:270:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:271:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:282:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/NormalizedTrace.lean:283:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18350/18403] Built GroundTheory.TateCohomology.CupProduct (9.8s)
+warning: src/GroundTheory/TateCohomology/CupProduct.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18351/18403] Built GroundTheory.PAdicHodge.UnramifiedClosure (15s)
+warning: src/GroundTheory/PAdicHodge/UnramifiedClosure.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PAdicHodge/UnramifiedClosure.lean:124:8: `mul_le_one₀` has been deprecated: No replacement, use constituent lemmas from proof.
+⚠ [18352/18403] Ran GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Statements:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18353/18403] Ran GroundTheory.HeightsAndTheta.Heights.RemainderTerms.CoinvReduction:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/CoinvReduction.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18354/18403] Ran GroundTheory.HeightsAndTheta.Heights.CovolumeGram:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/CovolumeGram.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18355/18403] Ran GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.Statements:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ArithmeticBezout/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18356/18403] Ran GroundTheory.HeightsAndTheta.Theta.EisensteinZeta.MirabolicInduction.CfunOmStatements:irArts
+warning: src/GroundTheory/HeightsAndTheta/Theta/EisensteinZeta/MirabolicInduction/CfunOmStatements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18357/18403] Ran GroundTheory.AutomorphicForms.RealGroupsLie:irArts
+warning: src/GroundTheory/AutomorphicForms/RealGroupsLie.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18358/18403] Ran GroundTheory.LocalFields.FilteredSurj:irArts
+warning: src/GroundTheory/LocalFields/FilteredSurj.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18359/18403] Built GroundTheory.LocalFields.NormalLattice (7.1s)
+warning: src/GroundTheory/LocalFields/NormalLattice.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18360/18403] Ran GroundTheory.PAdicHodge.PerfectoidField:irArts
+warning: src/GroundTheory/PAdicHodge/PerfectoidField.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18361/18403] Ran GroundTheory.ProfiniteCohomology.LocalEulerCharacteristic.AdditiveDefs:irArts
+warning: src/GroundTheory/ProfiniteCohomology/LocalEulerCharacteristic/AdditiveDefs.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18362/18403] Built GroundTheory.LocalFields.FiniteExtension (7.0s)
+warning: src/GroundTheory/LocalFields/FiniteExtension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18363/18403] Built GroundTheory.LocalFields.ExamplesLaurent (11s)
+warning: src/GroundTheory/LocalFields/ExamplesLaurent.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18364/18403] Built GroundTheory.LocalFields.BrauerInductionInduced (4.9s)
+warning: src/GroundTheory/LocalFields/BrauerInductionInduced.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/LocalFields/BrauerInductionInduced.lean:52:28: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/LocalFields/BrauerInductionInduced.lean:86:28: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18365/18403] Built GroundTheory.HeightsAndTheta.Heights.VerticalDivisors.PFibreClosedComponent (4.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/VerticalDivisors/PFibreClosedComponent.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18366/18403] Built GroundTheory.LocalFields.Uniqueness (8.8s)
+warning: src/GroundTheory/LocalFields/Uniqueness.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18367/18403] Built GroundTheory.LocalFields.AbstractLocalReciprocity.ExistsEqNsmulOfProjEqZero (7.1s)
+warning: src/GroundTheory/LocalFields/AbstractLocalReciprocity/ExistsEqNsmulOfProjEqZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18368/18403] Built GroundTheory.HeightsAndTheta.Theta.CMDatum (4.2s)
+warning: src/GroundTheory/HeightsAndTheta/Theta/CMDatum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Theta/CMDatum.lean:16:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Theta.isCMField`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/HeightsAndTheta/Theta/CMDatum.lean:32:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Theta.exists_not_mem_range`:
+  [NumberField F]
+  [IsTotallyReal F]
+  [NumberField E]
+  [IsTotallyComplex E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] [IsTotallyReal F] [NumberField E] [IsTotallyComplex E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/HeightsAndTheta/Theta/CMDatum.lean:41:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Theta.mem_range_of_conj_eq`:
+  [NumberField F]
+  [IsTotallyReal F]
+  [IsTotallyComplex E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] [IsTotallyReal F] [IsTotallyComplex E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/HeightsAndTheta/Theta/CMDatum.lean:60:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/HeightsAndTheta/Theta/CMDatum.lean:74:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/HeightsAndTheta/Theta/CMDatum.lean:83:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Theta.ringHom_ext_of_not_mem`:
+  [NumberField F]
+  [IsTotallyReal F]
+  [NumberField E]
+  [IsTotallyComplex E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] [IsTotallyReal F] [NumberField E] [IsTotallyComplex E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/HeightsAndTheta/Theta/CMDatum.lean:131:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Theta.exists_embedding_over`:
+  [NumberField F]
+  [IsTotallyReal F]
+  [NumberField E]
+  [IsTotallyComplex E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] [IsTotallyReal F] [NumberField E] [IsTotallyComplex E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18369/18403] Built GroundTheory.LocalFields.ExamplesCharZero (15s)
+warning: src/GroundTheory/LocalFields/ExamplesCharZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18370/18403] Built GroundTheory.HeightsAndTheta.Heights.StabilizerCovolume.PPrimeLogSum (4.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/StabilizerCovolume/PPrimeLogSum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18371/18403] Built GroundTheory.ProfiniteCohomology.GlobalClassFormation.IdeleCohomology.Product (22s)
+warning: src/GroundTheory/ProfiniteCohomology/GlobalClassFormation/IdeleCohomology/Product.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18372/18403] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsLimitOfApprox (51s)
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsLimitOfApprox.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsLimitOfApprox.lean:4:22: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18373/18403] Built GroundTheory.LocalFields.AbstractLocalReciprocity.ExistsOpenSubgroupMemFixedModule (12s)
+warning: src/GroundTheory/LocalFields/AbstractLocalReciprocity/ExistsOpenSubgroupMemFixedModule.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18374/18403] Built GroundTheory.LocalFields.CompleteTrivial (6.1s)
+warning: src/GroundTheory/LocalFields/CompleteTrivial.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18375/18403] Built GroundTheory.PAdicHodge.ExtRobbaBounded (27s)
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:30:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:58:6: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:61:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:65:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:93:45: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:94:42: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:101:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:291:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:295:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:303:23: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:306:23: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:372:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:402:23: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:408:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:411:23: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:417:41: Unused tactic linter: `push_cast at hcon` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:470:21: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:524:47: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:557:8: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [show n ≠ n₀ from hn]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:562:47: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:742:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:746:11: `Ideal.mem_jacobson_bot` has been deprecated: Use `Ring.mem_jacobson_iff` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u} [inst : CommRing R] {x : R}, x ∈ Ring.jacobson R ↔ ∀ (y : R), IsUnit (x * y + 1)
+instead of
+  ∀ {R : Type u} [inst : CommRing R] {x : R}, x ∈ ⊥.jacobson ↔ ∀ (y : R), IsUnit (x * y + 1)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mem_jacobson_bot` to `Ring.mem_jacobson_iff x`).
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:746:37: `IsAdicComplete.le_jacobson_bot` has been deprecated: Use `IsAdicComplete.le_jacobson` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommRing R] (I : Ideal R) [IsAdicComplete I R], I ≤ Ring.jacobson R
+instead of
+  ∀ {R : Type u_1} [inst : CommRing R] (I : Ideal R) [IsAdicComplete I R], I ≤ ⊥.jacobson
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:749:46: Variable name `hρ0` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hρ0
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:861:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:865:35: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/GroundTheory/PAdicHodge/ExtRobbaBounded.lean:919:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18376/18403] Built GroundTheory.HeightsAndTheta.Theta.EisensteinZeta.MirabolicInduction.CfunOmClassReducedParamsNonemptyPf (4.6s)
+warning: src/GroundTheory/HeightsAndTheta/Theta/EisensteinZeta/MirabolicInduction/CfunOmClassReducedParamsNonemptyPf.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18377/18403] Built GroundTheory.HeightsAndTheta.Heights.RemainderTerms.StatementsTop (4.9s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/StatementsTop.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18378/18403] Built GroundTheory.TateCohomology.InducedNorm (12s)
+warning: src/GroundTheory/TateCohomology/InducedNorm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/TateCohomology/InducedNorm.lean:27:19: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/GroundTheory/TateCohomology/InducedNorm.lean:38:12: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/GroundTheory/TateCohomology/InducedNorm.lean:74:20: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : TensorProduct R M N → Prop}
+    (z : TensorProduct R M N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) →
+      (∀ (x y : TensorProduct R M N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : TensorProduct R M N → Prop}
+    (z : TensorProduct R M N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) →
+        (∀ (x y : TensorProduct R M N), motive x → motive y → motive (x + y)) → motive z
+⚠ [18379/18403] Built GroundTheory.HeightsAndTheta.Heights.StabilizerCovolume.PNormCountBound (12s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/StabilizerCovolume/PNormCountBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/StabilizerCovolume/PNormCountBound.lean:99:55: `FractionalIdeal.count_coe_nonneg` has been deprecated: Use `FractionalIdeal.count_coeIdeal_nonneg` instead
+
+Hint: Replace the deprecated name:
+  FractionalIdeal.count_coeI̲d̲e̲a̲l̲_nonneg
+⚠ [18380/18403] Built GroundTheory.HeightsAndTheta.Heights.RemainderTerms.StatementsElem (8.9s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/StatementsElem.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18381/18403] Built GroundTheory.HeightsAndTheta.Heights.StabilizerCovolume.PowLeSqrtDetGram (10s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/StabilizerCovolume/PowLeSqrtDetGram.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18382/18403] Built GroundTheory.ProfiniteCohomology.LocalEulerCharacteristic.AdditiveSnake (6.0s)
+warning: src/GroundTheory/ProfiniteCohomology/LocalEulerCharacteristic/AdditiveSnake.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18383/18403] Built GroundTheory.ProfiniteCohomology.LocalEulerCharacteristic.AdditiveInvariants (6.9s)
+warning: src/GroundTheory/ProfiniteCohomology/LocalEulerCharacteristic/AdditiveInvariants.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/ProfiniteCohomology/LocalEulerCharacteristic/AdditiveInvariants.lean:73:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+⚠ [18384/18403] Built GroundTheory.HeightsAndTheta.Theta.SplitLinear.RankMinors (22s)
+warning: src/GroundTheory/HeightsAndTheta/Theta/SplitLinear/RankMinors.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Theta/SplitLinear/RankMinors.lean:31:42: `Matrix.linearIndependent_rows_iff_isUnit` has been deprecated: Use `Matrix.linearIndependent_row_iff_isUnit` instead
+
+Hint: Replace the deprecated name:
+  linearIndependent_rows̵_iff_isUnit
+⚠ [18385/18403] Ran Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsLimitOfApprox:irArts
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExistsLimitOfApprox.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18386/18403] Built GroundTheory.PAdicHodge.PerfectoidCriterion (4.7s)
+warning: src/GroundTheory/PAdicHodge/PerfectoidCriterion.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PAdicHodge/PerfectoidCriterion.lean:75:25: `mul_le_one₀` has been deprecated: No replacement, use constituent lemmas from proof.
+⚠ [18387/18403] Built GroundTheory.HeightsAndTheta.Theta.EisensteinZeta.MirabolicInduction.QuadraticFieldSqrtNegSeven (9.3s)
+warning: src/GroundTheory/HeightsAndTheta/Theta/EisensteinZeta/MirabolicInduction/QuadraticFieldSqrtNegSeven.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18388/18403] Built GroundTheory.PAdicHodge.KerTheta (8.1s)
+warning: src/GroundTheory/PAdicHodge/KerTheta.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PAdicHodge/KerTheta.lean:66:13: `Ideal.mem_jacobson_bot` has been deprecated: Use `Ring.mem_jacobson_iff` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u} [inst : CommRing R] {x : R}, x ∈ Ring.jacobson R ↔ ∀ (y : R), IsUnit (x * y + 1)
+instead of
+  ∀ {R : Type u} [inst : CommRing R] {x : R}, x ∈ ⊥.jacobson ↔ ∀ (y : R), IsUnit (x * y + 1)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mem_jacobson_bot` to `Ring.mem_jacobson_iff x`).
+warning: src/GroundTheory/PAdicHodge/KerTheta.lean:66:39: `IsAdicComplete.le_jacobson_bot` has been deprecated: Use `IsAdicComplete.le_jacobson` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommRing R] (I : Ideal R) [IsAdicComplete I R], I ≤ Ring.jacobson R
+instead of
+  ∀ {R : Type u_1} [inst : CommRing R] (I : Ideal R) [IsAdicComplete I R], I ≤ ⊥.jacobson
+⚠ [18389/18403] Built GroundTheory.HeightsAndTheta.Theta.EisensteinZeta.MirabolicInduction.CfunOmEtaPeriodLatticeClassPf (11s)
+warning: src/GroundTheory/HeightsAndTheta/Theta/EisensteinZeta/MirabolicInduction/CfunOmEtaPeriodLatticeClassPf.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18390/18403] Built GroundTheory.PowerSubgroups.CountableNeighbourhoods.TiltCountableNeighbourhoods (4.9s)
+warning: src/GroundTheory/PowerSubgroups/CountableNeighbourhoods/TiltCountableNeighbourhoods.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PowerSubgroups/CountableNeighbourhoods/TiltCountableNeighbourhoods.lean:14:56: `coe_nnnorm` has been deprecated: Use `coe_nnNorm` instead
+
+Hint: Replace the deprecated name:
+  coe_nnn̵N̲orm
+⚠ [18391/18403] Built GroundTheory.LocalFields.FormalGroups.FrobeniusTwist (4.2s)
+warning: src/GroundTheory/LocalFields/FormalGroups/FrobeniusTwist.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18392/18403] Built GroundTheory.PAdicHodge.PerfectoidCharP (9.5s)
+warning: src/GroundTheory/PAdicHodge/PerfectoidCharP.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PAdicHodge/PerfectoidCharP.lean:44:28: `FiniteDimensional.complete` has been deprecated: Use `FiniteDimensional.completeSpace` instead
+
+Hint: Replace the deprecated name:
+  FiniteDimensional.completeS̲p̲a̲c̲e̲
+⚠ [18393/18403] Built GroundTheory.PAdicHodge.AdmissibleField (32s)
+warning: src/GroundTheory/PAdicHodge/AdmissibleField.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18394/18403] Built GroundTheory.HeightsAndTheta.Theta.LieCoordinates.SecondKindStatements (14s)
+warning: src/GroundTheory/HeightsAndTheta/Theta/LieCoordinates/SecondKindStatements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18395/18403] Built GroundTheory.HeightsAndTheta.Heights.VerticalDivisors.Statements (20s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/VerticalDivisors/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18396/18403] Built GroundTheory.HeightsAndTheta.Heights.RemainderTerms.StatementsCoinv (10s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/StatementsCoinv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18397/18403] Built GroundTheory.PAdicHodge.TiltValuation (14s)
+warning: src/GroundTheory/PAdicHodge/TiltValuation.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PAdicHodge/TiltValuation.lean:71:35: `coe_nnnorm` has been deprecated: Use `coe_nnNorm` instead
+
+Hint: Replace the deprecated name:
+  coe_nnn̵N̲orm
+warning: src/GroundTheory/PAdicHodge/TiltValuation.lean:76:8: `nnnorm_eq_zero` has been deprecated: Use `nnNorm_eq_zero` instead
+
+Hint: Replace the deprecated name:
+  nnn̵N̲orm_eq_zero
+⚠ [18398/18403] Built GroundTheory.HeightsAndTheta.Heights.StabilizerCovolume.RecordEigen (26s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/StabilizerCovolume/RecordEigen.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/StabilizerCovolume/RecordEigen.lean:137:13: `FractionalIdeal.count_coe_nonneg` has been deprecated: Use `FractionalIdeal.count_coeIdeal_nonneg` instead
+
+Hint: Replace the deprecated name:
+  FractionalIdeal.count_coeI̲d̲e̲a̲l̲_nonneg
+warning: src/GroundTheory/HeightsAndTheta/Heights/StabilizerCovolume/RecordEigen.lean:147:19: `FractionalIdeal.count_coe_nonneg` has been deprecated: Use `FractionalIdeal.count_coeIdeal_nonneg` instead
+
+Hint: Replace the deprecated name:
+  FractionalIdeal.count_coeI̲d̲e̲a̲l̲_nonneg
+warning: src/GroundTheory/HeightsAndTheta/Heights/StabilizerCovolume/RecordEigen.lean:153:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/StabilizerCovolume/RecordEigen.lean:155:21: `FractionalIdeal.count_coe_nonneg` has been deprecated: Use `FractionalIdeal.count_coeIdeal_nonneg` instead
+
+Hint: Replace the deprecated name:
+  FractionalIdeal.count_coeI̲d̲e̲a̲l̲_nonneg
+warning: src/GroundTheory/HeightsAndTheta/Heights/StabilizerCovolume/RecordEigen.lean:161:21: `FractionalIdeal.count_coe_nonneg` has been deprecated: Use `FractionalIdeal.count_coeIdeal_nonneg` instead
+
+Hint: Replace the deprecated name:
+  FractionalIdeal.count_coeI̲d̲e̲a̲l̲_nonneg
+warning: src/GroundTheory/HeightsAndTheta/Heights/StabilizerCovolume/RecordEigen.lean:198:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18399/18403] Built GroundTheory.HeightsAndTheta.Heights.ThetaKeyFormula.RigSymFormTauINontrivial (78s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ThetaKeyFormula/RigSymFormTauINontrivial.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18400/18403] Ran GroundTheory.HeightsAndTheta.Heights.ThetaKeyFormula.RigSymFormTauINontrivial:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ThetaKeyFormula/RigSymFormTauINontrivial.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18401/18403] Built GroundTheory.HeightsAndTheta.Heights.ThetaKeyFormula.ZeroSetFinite (3.7s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ThetaKeyFormula/ZeroSetFinite.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18402/18403] Built GroundTheory.HeightsAndTheta.Theta.EisensteinZeta.MirabolicInduction.CfunOmEtaLogPeriodNegConjPf (109s)
+warning: src/GroundTheory/HeightsAndTheta/Theta/EisensteinZeta/MirabolicInduction/CfunOmEtaLogPeriodNegConjPf.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18403/18403] Built GroundTheory.HeightsAndTheta.Heights.ThetaKeyFormula.ThetaThreeFamLinearIndependent (147s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ThetaKeyFormula/ThetaThreeFamLinearIndependent.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/ThetaKeyFormula/ThetaThreeFamLinearIndependent.lean:334:10: This simp argument is unused:
+  autFactor
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [tauI, Matrix.mulVec, dotProduct, intVec, HalfChar.b, HalfChar.zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (18403 jobs).
+2026-11-22T09:22:01+00:00  lake exit 0
